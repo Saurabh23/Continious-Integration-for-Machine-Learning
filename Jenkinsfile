@@ -17,7 +17,7 @@ node {
    stage 'Train Model(s)'
    echo "$path" 
     
-   echo 'Test accuracy and measure inference time.'
+   echo 'Test accuracy and measure inference time..'
      
 
    //sh 'python --version'
