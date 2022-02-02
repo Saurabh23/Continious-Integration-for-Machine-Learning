@@ -1,7 +1,7 @@
 {
   "id": "/dev/tensorflow/serving",
   "cpus": 1,
-  "mem": 2048,
+  "mem": 2048 ,
   "user": "nobody",
   "cmd": "tensorflow_model_server --port=${PORT_SERVING} --model_name=${TENSORFLOW_MODEL_NAME} --model_base_path=/mnt/mesos/sandbox",
   "container": {
