@@ -22,6 +22,13 @@ node {
 
    //sh 'python --version'
    sh 'python3 --version' 
+   sh 'python3 -m pip install -r requirements.txt'
+  
+
+    
+    
+    sh 'python3 -m pip install mlflow'
+    
    
    sh 'python3 wine_mlflow.py 0.11 0.10'
    
